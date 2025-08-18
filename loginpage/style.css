@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(171, 226, 208);
+    padding: auto;
+
+}
+#header{
+    color: blue;
+    font-style: oblique;
+    font-weight: bolder;
+    font-size: xx-large;
+    animation-name: unset;
+    width: 100%;
+    height: fit-content;
+}
+/* building something without the tutorial hell that I've been on */
+#loginkeys{
+    align-content: center;
+    padding: auto;
+    font-size:medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    flex-direction: column;
+    flex: content;
+    display:flex;
+
+
+}
+#signup{
+    border: 0cap;
+    position: relative;
+    font: 1em sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    background-color: black;
+    color: #ece5e5;
+    margin:auto;
+    padding-left: 0cm;
+}
+#signin{
+
+}
