@@ -5,6 +5,7 @@ const wrap= document.querySelector('.wrap');
 const loginlink = document.querySelector('.login-link');
 const registerlink = document.querySelector('.registation-box');
 const btnPopup = document.querySelector('.btnLogin-popup');
+const regLink =  document.querySelector('.#')
 
 registerlink.addEventListener('click', ()=>{
     wrap.classList.add('active');
@@ -18,3 +19,7 @@ btnPopup.addEventListener('click', ()=>{
     wrap.classList.remove('active.btnPopup');
 
 });
+// regLink.addEventListener('click' ,()=>{
+//     window.open(URL, target, windowFeatures);
+    
+// })
